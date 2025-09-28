@@ -122,6 +122,30 @@ ____________________________________________
 
   **Median via MoM: 49488**
   
-  **Closest Pair distance: 1.0606965849348556E-4**
+  MergeSort n=100 time=716300 ns
+QuickSort n=100 time=1046600 ns
+Select n=100 kth=50 result=565 time=2992700 ns
+ClosestPair n=100 dist=0,008818 time=13624900 ns
 
-  **Process finished with exit code 0**
+MergeSort n=500 time=183700 ns
+QuickSort n=500 time=294800 ns
+Select n=500 kth=250 result=2710 time=381600 ns
+ClosestPair n=500 dist=0,000646 time=9742300 ns
+
+MergeSort n=1000 time=240300 ns
+QuickSort n=1000 time=108700 ns
+Select n=1000 kth=500 result=5021 time=180900 ns
+ClosestPair n=1000 dist=0,000854 time=9859800 ns
+
+MergeSort n=5000 time=699300 ns
+QuickSort n=5000 time=508800 ns
+Select n=5000 kth=2500 result=24538 time=388500 ns
+ClosestPair n=5000 dist=0,000175 time=9767700 ns
+
+MergeSort n=10000 time=1224900 ns
+QuickSort n=10000 time=3692900 ns
+Select n=10000 kth=5000 result=49846 time=1680100 ns
+ClosestPair n=10000 dist=0,000049 time=28691400 ns
+
+
+Process finished with exit code 0
